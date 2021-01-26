@@ -6,6 +6,9 @@ namespace Vaccins
     {
         static void Main(string[] args)
         {
+            TypeVaccin pfizer = new TypeVaccin { Nom = "Pfizer" };
+            TypeVaccin moderna = new TypeVaccin { Nom = "Moderna" };
+
             Vaccin dose1Mylene = new Vaccin
             {
                 Date = DateTime.Today,

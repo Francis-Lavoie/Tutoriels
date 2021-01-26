@@ -10,6 +10,7 @@ namespace Vaccins
         public DateTime Date { get; set; }
         public string Nom { get; set; }
         public string NAMPatient { get; set; }
+        public TypeVaccin TypeVaccin { get; set; }
 
         public override string ToString()
         {
