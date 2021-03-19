@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoAsync", "CoursAsync\ExoA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesFruits", "LesFruits\LesFruits\LesFruits.csproj", "{A66C0451-5C8A-4936-A9B8-9E8331A07ACD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviVaccinCovid", "ExoTestUnitaireMock\SuiviVaccinCovid\SuiviVaccinCovid.csproj", "{748DAB4C-25C2-4A5F-B29C-27F21F06D765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviVaccinCovidTests", "ExoTestUnitaireMock\SuiviVaccinCovidTests\SuiviVaccinCovidTests.csproj", "{18716A4D-0935-412E-8AE9-5B4A0EB61741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A66C0451-5C8A-4936-A9B8-9E8331A07ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66C0451-5C8A-4936-A9B8-9E8331A07ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66C0451-5C8A-4936-A9B8-9E8331A07ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748DAB4C-25C2-4A5F-B29C-27F21F06D765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748DAB4C-25C2-4A5F-B29C-27F21F06D765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748DAB4C-25C2-4A5F-B29C-27F21F06D765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748DAB4C-25C2-4A5F-B29C-27F21F06D765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18716A4D-0935-412E-8AE9-5B4A0EB61741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18716A4D-0935-412E-8AE9-5B4A0EB61741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18716A4D-0935-412E-8AE9-5B4A0EB61741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18716A4D-0935-412E-8AE9-5B4A0EB61741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
